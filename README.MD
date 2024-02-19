@@ -22,7 +22,10 @@ DreamGaussian (3D model) is the bulk of it. 120s (cold boot) + 30s (first run) +
 
 ## Usage.
 
+Sign up for the [Replicate](https://replicate.com) service.
+
 ```sh
+export REPLICATE_API_KEY=...
 pipenv install
 python headshot/server.py
 
