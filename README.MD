@@ -9,27 +9,6 @@ A text-to-3D asset pipeline I built for the [AI Rick and Morty TV show](https://
  3. Downloads .zip containing 3D model (.obj) and textures (.mtl, .png)
  4. Live imports into Unity and rigs them onto a generic human model https://github.com/liamzebedee/unity-runtime-obj-importer and custom code.
 
-## 2D image pipeline.
-
-### Input.
-
-|                     |         |   |   |   |
-|---------------------|---------|---|---|---|
-| **Prompt**          |    `{character_name}`'s face, facing camera (0° angle), headshot, cartoon colours, gta v style, hyperrealism, a photorealistic painting, hyper realistic face, (clear white background:5)     |   |   |   |
-| **Negative prompt** |    text, multicolored, black and white, signature, sig, (merged hands:1.3), (merged arms:1.3), merged, legs, merged bodyparts, BadDream, (UnrealisticDream:1.2), bad_prompt_version2, bad-artist bad-artist-anime, EasyNegative , longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, multiple people     |   |   |   |
-| **Input image**     |    ![](https://i.imgur.com/F13wrbW.png)     |   |   |   |
-| **Style image**     | _Empty_ |   |   |   |
-
-### Output.
-
-![alt text](zaagjs3bzkp4fovcfvalzex76i.png) ![alt text](rodkyfdbsyazmin6okw3mtgdai.png) ![alt text](bxhlrrdbxp3scpmawexpkvdjfe.png) ![alt text](bgnbcjtb6jimd6n7rp23aymxgi.png)
-
-## Performance.
-
-### 3D stage.
-
-120s (cold boot) + 30s (first run) + 120s (gen/inference) = 270s per generation. This is based on Nvidia A40 (Large) GPU. Trialed with Nvidia A100 (80GB) GPU which gave run times of 109.5s and 130.25s.
-
 ## Usage.
 
 Sign up for the [Replicate](https://replicate.com) service.
@@ -61,13 +40,9 @@ The new character voting chamber:
 
 ![image](https://github.com/Code-Bullet/RickAndMortai/assets/584141/3f7c327e-40d8-4cd4-92fd-b53a475b1fea)
 
-The saved files and scenes written to disk:
-
-![Screenshot 2023-11-28 at 4 01 44 pm](https://github.com/Code-Bullet/RickAndMortai/assets/584141/3dddff1a-9d99-4670-8791-0fc1b06209bf)
-
 ![Screen Shot 2023-11-01 at 3 51 59 pm](https://github.com/Code-Bullet/RickAndMortai/assets/584141/506b2489-66ea-46ea-b5d0-c13f5dc0621c)
 
-## the 3d generation server (python)
+## The 3D generation server
 
 Filesystem layout:
 
