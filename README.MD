@@ -9,8 +9,9 @@ A text-to-3D asset pipeline I built for the [AI Rick and Morty TV show](https://
  3. Downloads .zip containing 3D model (.obj) and textures (.mtl, .png)
  4. Live imports into Unity and rigs them onto a generic human model https://github.com/liamzebedee/unity-runtime-obj-importer and custom code.
 
-
 ## 2D image pipeline.
+
+### Input.
 
 |                     |         |   |   |   |
 |---------------------|---------|---|---|---|
@@ -18,6 +19,10 @@ A text-to-3D asset pipeline I built for the [AI Rick and Morty TV show](https://
 | **Negative prompt** |    text, multicolored, black and white, signature, sig, (merged hands:1.3), (merged arms:1.3), merged, legs, merged bodyparts, BadDream, (UnrealisticDream:1.2), bad_prompt_version2, bad-artist bad-artist-anime, EasyNegative , longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, multiple people     |   |   |   |
 | **Input image**     |    ![](https://i.imgur.com/F13wrbW.png)     |   |   |   |
 | **Style image**     | _Empty_ |   |   |   |
+
+### Output.
+
+![alt text](zaagjs3bzkp4fovcfvalzex76i.png) ![alt text](rodkyfdbsyazmin6okw3mtgdai.png) ![alt text](bxhlrrdbxp3scpmawexpkvdjfe.png) ![alt text](bgnbcjtb6jimd6n7rp23aymxgi.png)
 
 ## Performance.
 
