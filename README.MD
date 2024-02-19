@@ -22,7 +22,7 @@ python headshot/server.py
 curl -X POST -H "Content-Type: application/json" -d '{"character": "mario"}' http://0.0.0.0:10001/v1/character-heads/generate
 ```
 
-### Demos.
+## Demos.
 
 A 3D donald trump generated at runtime:
 
@@ -36,13 +36,7 @@ Gordon Ramsey and Dutch guys:
 
 ![Screenshot 2023-11-27 at 10 38 50 am](https://github.com/Code-Bullet/RickAndMortai/assets/584141/1e9f2b8f-aa1e-415c-a5c5-b40a748c9701)
 
-The new character voting chamber:
-
-![image](https://github.com/Code-Bullet/RickAndMortai/assets/584141/3f7c327e-40d8-4cd4-92fd-b53a475b1fea)
-
-![Screen Shot 2023-11-01 at 3 51 59 pm](https://github.com/Code-Bullet/RickAndMortai/assets/584141/506b2489-66ea-46ea-b5d0-c13f5dc0621c)
-
-## The 3D generation server
+## Internals.
 
 Filesystem layout:
 
@@ -52,6 +46,6 @@ The boys:
 
 ![Screen Shot 2023-10-23 at 6 21 14 pm](https://github.com/Code-Bullet/RickAndMortai/assets/584141/82f33aaf-a56f-433e-aaab-e13bc6feed83)
 
-CLI view:
+## Notice.
 
-![Screenshot 2023-11-27 at 3 14 39 pm](https://github.com/Code-Bullet/RickAndMortai/assets/584141/95992b4c-6cd1-4ac2-a412-3f5502ab4f6e)
+Copyright LLaMa69 Inc, 2023.
