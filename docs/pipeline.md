@@ -1,4 +1,5 @@
 
+
 ## 2D image pipeline.
 
 ### Input.
@@ -12,7 +13,24 @@
 
 ### Output.
 
-![alt text](zaagjs3bzkp4fovcfvalzex76i.png) ![alt text](rodkyfdbsyazmin6okw3mtgdai.png) ![alt text](bxhlrrdbxp3scpmawexpkvdjfe.png) ![alt text](bgnbcjtb6jimd6n7rp23aymxgi.png)
+![ex 1](./demo-assets/2d/walter%20white/22kaecdbrd73vfq5bjmvgl2h5m.png) ![ex 2](./demo-assets/2d/walter%20white/fprlb4dbkpb46b6cr7grl33nom.png)
+
+![ex 3](./demo-assets/2d/walter%20white/toqy4clbb5ox3lfto7xkbt3olq.png) ![ex 4](./demo-assets/2d/walter%20white/tqeytkdb3s3he6md7vseg362vm.png)
+
+
+## 3D model pipeline.
+
+### Input.
+
+Same as outputs from 2D above.
+
+### Output.
+
+<video autoplay loop controls src="./demo-assets/3d/walter%20white/qswmc33bww76mxfe5eho6goyqe_video.mp4"></video> 
+
+<video autoplay loop controls src="./demo-assets/3d/walter%20white/y3rch2tbdbxfbx6reprjqfmbka_video.mp4"></video>
+
+See [./demo-assets/3d/walter%20white/](./demo-assets/3d/walter%20white/) for the mp4's, and raw 3D object outputs and textures.
 
 ## Performance.
 

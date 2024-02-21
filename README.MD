@@ -2,6 +2,8 @@
 
 ![Screenshot 2023-11-27 at 10 38 50 am](https://github.com/Code-Bullet/RickAndMortai/assets/584141/1e9f2b8f-aa1e-415c-a5c5-b40a748c9701)
 
+<video src="./docs/demo-assets/3d/walter white/qswmc33bww76mxfe5eho6goyqe_video.mp4" autoplay loop controls></video>
+
 A text-to-3D asset pipeline I built for the [AI Rick and Morty TV show](https://supernova996.substack.com) to generate 3D characters.
 
  1. Generates 4x candidate images (.png's) in parallel using [Stable Diffusion XL](https://stablediffusionxl.com), with prompt/antiprompt/reference image configured. 

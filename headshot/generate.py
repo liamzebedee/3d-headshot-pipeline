@@ -81,18 +81,25 @@ def gen_3d(image="", save_dir=""):
     }
     
     # Approach 1: public Replicate deployment.
-    # model = replicate.models.get("alaradirik/dreamgaussian")
-    # version = model.versions.get("44d1361ed7b4e46754c70de0d91334e79a1bc8bbe3e7ec18835691629de25305")
-    # prediction = replicate.predictions.create(
-    #     version=version,
-    #     input=_input
-    # )
+    print("getting model")
+    model = None
+    try:
+        model = replicate.models.get("adirik/dreamgaussian")
+    except Exception as e:
+        print(e)
+        return None
+    version = model.versions.get("44d1361ed7b4e46754c70de0d91334e79a1bc8bbe3e7ec18835691629de25305")
 
-    # Approach 2: private Replicate deployment.
-    deployment = replicate.deployments.get("liamzebedee/aaa")
-    prediction = deployment.predictions.create(
+    prediction = replicate.predictions.create(
+        version=version,
         input=_input
     )
+
+    # Approach 2: private Replicate deployment.
+    # deployment = replicate.deployments.get("liamzebedee/aaa")
+    # prediction = deployment.predictions.create(
+    #     input=_input
+    # )
     
     # Wait for prediction to generate.
     start_time = time.time()
@@ -105,6 +112,7 @@ def gen_3d(image="", save_dir=""):
     # Output info.
     if prediction.status == "failed":
         print("Error:", prediction.error)
+        print(prediction)
         return None
     
     print('gen_3d', prediction.output)
@@ -210,8 +218,6 @@ def generate_headshots(character):
     inputs_3d = [
         (image_2d_url, character) for image_2d_url in image_2d_results
     ]
-
-    return
 
     image_3d_results = executor.map(gen_3d, *zip(*inputs_3d))
     image_3d_results = list(image_3d_results)
