@@ -9,6 +9,8 @@ A text-to-3D asset pipeline I built for the [AI Rick and Morty TV show](https://
  3. Downloads .zip containing 3D model (.obj) and textures (.mtl, .png)
  4. Live imports into Unity and rigs them onto a generic human model https://github.com/liamzebedee/unity-runtime-obj-importer and custom code.
 
+See [docs/pipeline.md](./docs/pipeline.md) for more info.
+
 ## Usage.
 
 Sign up for the [Replicate](https://replicate.com) service.

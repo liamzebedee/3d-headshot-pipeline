@@ -16,6 +16,6 @@
 
 ## Performance.
 
-### 3D stage.
+### 3D stage - DreamFusion.
 
 120s (cold boot) + 30s (first run) + 120s (gen/inference) = 270s per generation. This is based on Nvidia A40 (Large) GPU. Trialed with Nvidia A100 (80GB) GPU which gave run times of 109.5s and 130.25s.
