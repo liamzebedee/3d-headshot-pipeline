@@ -161,10 +161,10 @@ def generate_headshots(character):
     print(character)
 
     # image = open("data/inputs-2d/head.png", "rb")
-    image_black_bg = 'https://i.imgur.com/B5C3aww.png'
-    image_white_bg = "https://i.imgur.com/F13wrbW.png"
-    image_style_ref1 = 'https://i.imgur.com/9XRBmNi.png'
-    image_style_ref2 = "https://i.imgur.com/HO8gyJf.png"
+    image_black_bg = 'https://github.com/liamzebedee/3d-headshot-pipeline/blob/main/headshot/data/inputs-2d/head.png?raw=true'
+    image_white_bg = "https://github.com/liamzebedee/3d-headshot-pipeline/blob/main/headshot/data/inputs-2d/head-white.png?raw=true"
+    image_style_ref1 = 'https://github.com/liamzebedee/3d-headshot-pipeline/blob/main/headshot/data/inputs-2d/ref_nobg.png?raw=true'
+    image_style_ref2 = "https://github.com/liamzebedee/3d-headshot-pipeline/blob/main/headshot/data/inputs-2d/style-gordon_clipdrop-background-removal.png?raw=true"
 
     # validate character string is only a-Z and space.
     # this is because we use it as a folder name to save the assets under.
